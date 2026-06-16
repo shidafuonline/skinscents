@@ -1,7 +1,11 @@
 field,index,display
 title,true,true
-date,true,true
-creator,true,false
-description,true,true
-subject,true,true
-location,true,false
+perfumer,false,false
+house,false,false
+year,false,false
+country,false,false
+parfumo_accords,false,false
+fragrantica_accords,false,false
+house_notes,false,false 
+standard_notes,false,false 
+mode_gender,false,false
