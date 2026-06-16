@@ -3,7 +3,7 @@ title,
 perfumer,
 house
 year
-country
+country,,false,true,Country,Country
 parfumo_accords
 fragrantica_accords
 house_notes
