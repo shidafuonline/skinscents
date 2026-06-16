@@ -23,7 +23,7 @@ title: Skin Scent Demo Collection
 tagline: 'your skin but better'
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A micro-database of 'your-skin-but-better fragrances', built using CollectionBuilder-CSV."
+description: "A micro-database of 'your-skin-but-better fragrances', built using CollectionBuilder."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: fragrance; perfume; skin scent;
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name

@@ -5,3 +5,15 @@ creator,Creator,,,
 subject,,true
 location,,true,,,Location Depicted
 identifier,,,true,Identifier
+
+
+title,true,false
+perfumer,false,false
+house,false,false
+year,false,false
+country,false,false
+parfumo_accords,false,false
+fragrantica_accords,false,false
+house_notes,false,false 
+standard_notes,false,false 
+mode_gender,false,false
