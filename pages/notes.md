@@ -3,8 +3,8 @@ title: Notes
 layout: cloud
 permalink: /notes.html
 # Default notes (prev. subjects) page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.subjects-fields"
-cloud-fields: site.data.theme.subjects-fields
+# leave cloud-fields as "site.data.theme.subjects-fields" UNLESS you change the field in theme.yml
+cloud-fields: standardized_notes
 ---
 
 ## Browse Notes

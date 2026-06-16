@@ -3,8 +3,8 @@ title: Accords
 layout: cloud
 permalink: /accords.html
 # Default accords (prev. locations) page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.locations-fields"
-cloud-fields: site.data.theme.loactions-fields
+# leave cloud-fields as "site.data.theme.locations-fields" UNLESS you're changing the field name in theme.yml
+cloud-fields: parfumo_accords;fragrantica_accords
 ---
 
 ## Browse Accords
