@@ -1,7 +1,12 @@
 field,display_name,btn,hidden,sort_name,facet_name
-house,,false
-description,,,true,
-creator,Creator,,,
-subject,,true
-location,,true,,,Location Depicted
-identifier,,,true,Identifier
+title,
+perfumer,
+house
+year
+country
+parfumo_accords
+fragrantica_accords
+house_notes
+standard_notes
+mode_gender,,,true,gender,gender
+
