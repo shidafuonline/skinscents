@@ -5,20 +5,27 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
+# code: about-featured-image: object id
 # set background-position for featured image, "center", "top", "bottom"
-position: bottom
+# code: position: bottom
 # major heading to display over featured image
-heading: About the Collection
+heading: About this Collection
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
+padding: 4em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
+## What are skin scents?
 
-## About CollectionBuilder CSV
+Like most fragrance terminology, there is no standard definition of 'skin scent'. Typically these fragrances are characterized by a lower projection, ambiguous fragrance profile that lacks strongly discernible notes, and 
+
+## What data was used?
+
+The data in this collection was manually pulled from a the fragrance house's website, Parfumo/Basenotes, and Fragrantica. Certain notes used by the perfumer (especially adjective - note) have been tagged twice to improve fragrance searchability. The name used by the fragrance house on their website was prioritized when discrepancies between names on the fragrance house's website and the databases emerged, with some liberties being taken for clarity. Images are borrowed from the fragrance house's website whenever possible, with alternatives from Parfumo or Fragrantica being used when no stable image link was available. When multiple release years were noted without the fragrance house offering this information, the latter year was used.
+
+### About CollectionBuilder CSV
 
 This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
 
