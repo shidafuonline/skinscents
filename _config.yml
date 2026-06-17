@@ -20,10 +20,10 @@ source-code: https://github.com/shidafuonline/skinscents
 # title of site appears in banner
 title: Skin Scent Demo Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: 'What does your-skin-but-better smell like?'
+# code: tagline: 'What does your-skin-but-better smell like?'
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A micro-database of 'your-skin-but-better fragrances', built using CollectionBuilder."
+description: "A micro-database of 'your-skin-but-better fragrances"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: fragrance; perfume; skin scent;
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -50,8 +50,8 @@ metadata: skinscent-metadata-v3
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-organization-name: "Leo Litke's Skin Scent CollectionBuilder Demo"
-organization-link: https://www.fragrantica.com/@knightcore
+# organization-name: "Leo Litke's Skin Scent CollectionBuilder Demo"
+# organization-link: https://www.fragrantica.com/@knightcore
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
 
 ##########
