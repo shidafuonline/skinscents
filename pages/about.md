@@ -23,9 +23,7 @@ padding: 4em
 
 Like much of the terminology used to describe fragrance, there is no formal definition of what constitutes 'skin scent'. Also described as "your-skin-but-better" or "perfumes for people who don't want to smell like they're wearing perfume," skin scents are typically characterized by a closer sillage (the distance from which you can smell the fragrance, also called projection), a lack of strongly discernible notes, and fragrance profiles that are generally regarded as being comforting, clean, and light.
 
-American perfume house [snif](https://snif.co/en-ca/blogs/news/skin-scents) describes skin scents as "fragrances designed specifically to mimic the smell of clean, warm skin — like that smell you get when you’re fresh out of a hot shower, before you put on any body oil or lotion," however the 
-
-Given their almost ambiguous nature, collection was built to explore the olfactory information about skin scents that has been consolidated on the fragrance databases Fragrantica and Parfumo
+Given their intentionally ambiguous nature, collection was built to explore the olfactory information about skin scents on the manufacturers' website that has been consolidated on the fragrance databases Fragrantica and Parfumo
 
 
 {% include feature/image.html objectid="skin09;skin03;skin04;skin19;skin17" width="75" %} 
@@ -35,9 +33,9 @@ Given their almost ambiguous nature, collection was built to explore the olfacto
 The data in this collection was manually compiled from the fragrance house's website (and occasionally official social media page), Parfumo/Basenotes, and Fragrantica. See below for more information about how this has been sorted.
 
 {% capture notes %}
-The [Notes](https://shidafuonline.github.io/skinscents/notes.html) page shows the standardized notes. 
+The [Notes](https://shidafuonline.github.io/skinscents/notes.html) page shows a visualization of the standardized notes of the fragrances included. 
 
-Certain notes used by the perfume house have been tagged with a more common term to improve searchability on this database-- for example, . 
+Certain notes used by the perfume house have been tagged with a more common term to improve searchability and more accurately reflect how the prevalence is visuallized on the on this database-- for example, . 
 
 {% endcapture %}
 
@@ -47,7 +45,7 @@ The [Accords](https://shidafuonline.github.io/skinscents/accords.html) page show
 {% endcapture %}
 
 {% capture location %}
-The [Map](https://shidafuonline.github.io/skinscents/map.html) shows the locations of fragrance houses. The exact location of the lab where the fragrance was formulated is typically not available, and so the coordinates for the markers have been pulled from an equivalent business address, stockist, or city from the country of origin listed on Parfumo/Basenotes or Fragrantica.
+The [Map](https://shidafuonline.github.io/skinscents/map.html) corresponds with places in the respective countries that the perfume houses are producing in with as much specificity as possible. As the map requires exact coordinates and perfume production is typically scattered accross laboratories, offices, and stores, the coordinates for these markers have been pulled from a business address, stockist, or within the city or neighbourhood limits mentioned on the fragrance house's website within the country of origin listed on Parfumo/Basenotes or Fragrantica.
 
 {% endcapture %}
 
@@ -55,15 +53,19 @@ The [Map](https://shidafuonline.github.io/skinscents/map.html) shows the locatio
 
 Other Data
 
-The name of the fragrance used by the fragrance house on their website was prioritized when discrepancies between names on the fragrance house’s website and the databases emerged, with some liberties being taken for clarity (such as in the case of Clean, which has a scent named "Skin" in both its 'Classic' and 'Reserve' lines). 
+The name of the fragrance is listed as the one used by the fragrance house on their website when discrepancies between the three sources emerged, with additional information added for clarity when relevant (such as in the case of Clean, which has a scent named "Skin" in both its 'Classic' and 'Reserve' lines). 
 
 When multiple release years were noted on the databases without the fragrance house offering this information directly, the latter year was used.
 
 Images of the bottles have been borrowed from the fragrance house’s website whenever possible, with an alternative from Parfumo or Fragrantica being used when no stable image link was available. Any alternative text has been written independently from any that was available on the image source website. 
 
+Perfumer names have been taken from any of the three sources, and no discrepancies emerged at the time of data collection.
+
 {% endcapture %}
 
-{% include feature/accordion.html title1="About Notes" text1=notes title2="About Accords" text2=accords title3="About Location" text3=location text4=other title4="Other Data" %}
+{% include feature/accordion.html title1="Notes" text1=notes title2="Accords" text2=accords title3="Location" text3=location text4=other title4="Other Data" %}
+
+
 
 ### About CollectionBuilder CSV
 
