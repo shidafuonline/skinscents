@@ -1,9 +1,9 @@
 field,display_name,btn,hidden,sort_name,facet_name
-title,
-perfumer,,false,false,Perfumer,perfumer
+title,,false,true,title
 house,,false,false,House,house
-year,,false,false,Year,year
-country,,false,false,Country,Country
+perfumer,,false,true,Perfumer,perfumer
+year,,false,true,Year,year
+country,,false,true,Country,Country
 parfumo_accords,,false,true,Accords (Parfumo),Accords (Parfumo)
 fragrantica_accords,,false,true,Accords (Fragrantica),Accords (Fragrantica)
 house_notes,,false,true,Notes (Fragrance House),Notes (Fragrance House)
