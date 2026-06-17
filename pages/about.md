@@ -63,7 +63,7 @@ Images of the bottles have been borrowed from the fragrance house’s website wh
 
 {% endcapture %}
 
-{% include feature/accordion.html title1="About Notes" text1=notes title2="About Accords" text2=accords title3="About Location" text3=location text4=other title4="Other Data%}
+{% include feature/accordion.html title1="About Notes" text1=notes title2="About Accords" text2=accords title3="About Location" text3=location text4=other title4="Other Data" %}
 
 ### About CollectionBuilder CSV
 
