@@ -9,7 +9,7 @@ mode_gender,Gender
 percentage,,
 identifier,Source Identifier,,,,
 perfumer,Perfumer,,,DCTERMS.creator,creator
-year,Date Created,,,DCTERMS.date,dateCreated
+year,Year released,,,DCTERMS.date,dateCreated
 country,Country,,,DCTERMS.coverage,contentLocation
-type,,,,
-format,,,
+latitude,,,,DCTERMS.spatial,latitude
+longitude,,,,DCTERMS.spatial,longitude
