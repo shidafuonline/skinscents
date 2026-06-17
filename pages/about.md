@@ -32,15 +32,36 @@ Given their almost ambiguous nature, collection was built to explore the olfacto
 
 ## What data was used?
 
-The data in this collection was manually compiled from the fragrance house's website (and occasionally social media), Parfumo/Basenotes, and Fragrantica. 
+The data in this collection was manually compiled from the fragrance house's website (and occasionally official social media page), Parfumo/Basenotes, and Fragrantica. See below for more information about how this has been sorted.
 
-#### About Accords
+{% capture notes %}
+The [Notes](https://shidafuonline.github.io/skinscents/notes.html) page shows the standardized notes. 
 
+Certain notes used by the perfume house have been tagged with a more common term to improve searchability on this database-- for example, . 
+
+{% endcapture %}
+
+{% capture accords %}
 The [Accords](https://shidafuonline.github.io/skinscents/accords.html) page shows accords from both Parfumo/Basenotes and Fragrantia. All Parfumo/Basenotes accords were included, however only the top five Fragrantica accords were included as their database can include 10+ accords per fragrance. As these have not been standardized (unlike the notes), there may be duplicates or similar notes when these databases use variations of the same word (such as Parfumo using the accord "animal" and Fragrantica using the accord "animalic"). 
 
-#### About Notes
+{% endcapture %}
 
-Certain notes used by the perfumer (especially adjective - note) have been tagged twice to improve fragrance searchability. The name used by the fragrance house on their website was prioritized when discrepancies between names on the fragrance house's website and the databases emerged, with some liberties being taken for clarity. Images are borrowed from the fragrance house's website whenever possible, with alternatives from Parfumo or Fragrantica being used when no stable image link was available. When multiple release years were noted without the fragrance house offering this information directly, the later year was noted.
+{% capture location %}
+The [Map](https://shidafuonline.github.io/skinscents/map.html) shows the locations of fragrance houses. The exact location of the lab where the fragrance was formulated is typically not available, and so the coordinates for the markers have been pulled from an equivalent business address, stockist, or city from the country of origin listed on Parfumo/Basenotes or Fragrantica.
+
+{% endcapture %}
+
+{% capture other %}
+
+Other Data
+
+The name of the fragrance used by the fragrance house on their website was prioritized when discrepancies between names on the fragrance house’s website and the databases emerged, with some liberties being taken for clarity (such as in the case of Clean, which has a scent named "Skin" in both its 'Classic' and 'Reserve' lines). 
+
+When multiple release years were noted on the databases without the fragrance house offering this information directly, the latter year was used.
+
+Images of the bottles have been borrowed from the fragrance house’s website whenever possible, with an alternative from Parfumo or Fragrantica being used when no stable image link was available. Any alternative text has been written independently from any that was available on the image source website. 
+
+{% include feature/accordion.html title1="About Notes" text1=notes title2="About Accords" text2=accords title3="About Location" text3=location text4=other title4="Other Data%}
 
 ### About CollectionBuilder CSV
 
