@@ -61,6 +61,8 @@ When multiple release years were noted on the databases without the fragrance ho
 
 Images of the bottles have been borrowed from the fragrance house’s website whenever possible, with an alternative from Parfumo or Fragrantica being used when no stable image link was available. Any alternative text has been written independently from any that was available on the image source website. 
 
+{% endcapture %}
+
 {% include feature/accordion.html title1="About Notes" text1=notes title2="About Accords" text2=accords title3="About Location" text3=location text4=other title4="Other Data%}
 
 ### About CollectionBuilder CSV
