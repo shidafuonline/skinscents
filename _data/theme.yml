@@ -41,7 +41,7 @@ notes-stopwords: # set of subjects separated by ; that will be removed from disp
 ##########
 # ACCORDS (prev. LOCATIONS) PAGE
 #
-accords-fields: parfumo_accords;fragrantica_accords # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+accords-fields: all_accords # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 accords-min: 5 # min size for subject cloud, too many terms = slow load time!
 accords-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
