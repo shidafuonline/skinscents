@@ -12,16 +12,8 @@
 @use 'sass:list';
 
 /* set up base variable to override from cb.scss */
-$link-color-base: "_data/config-theme-colors.csv" !default;
-$theme-colors: (color_class,color
-light,"
-#f2e5da"
-grey,"#6c757d"
-rgb(114, 62, 13),"#6e4c30"
-rgb(245, 240, 220),"#e6d6b5"
-rgb(173, 173, 216),"#abbcc4"
-rgb(183, 146, 183),"#bfa9c9"
-light,"#f2e5da") !default;
+$link-color-base: "" !default;
+$theme-colors: () !default;
 
 /* variables needed from Bootstrap */ 
 
