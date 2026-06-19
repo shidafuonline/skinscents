@@ -9,9 +9,9 @@ about-featured-image: objects/skinscentmeanswhat.png
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About this Collection
+heading: About this Collection's Data
 # paragraph text below heading in featured image
-sub-heading: 
+sub-heading: The joys of quantifying the olfactory!
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
 padding: 4em
 # Edit the markdown on in this file to describe your collection
@@ -49,8 +49,6 @@ The [Map](https://shidafuonline.github.io/skinscents/map.html) corresponds with 
 {% endcapture %}
 
 {% capture other %}
-
-Other Data
 
 The name of the fragrance is listed as the one used by the fragrance house on their website when discrepancies between the three sources emerged, with additional information added for clarity when relevant (such as in the case of Clean, which has a scent named "Skin" in both its 'Classic' and 'Reserve' lines). 
 
