@@ -9,5 +9,8 @@ cloud-fields: all_accords
 
 ## Browse Accords
 
-Use this word cloud visualization to browse accords.
-Word size is determined by frequency and all words link to a corresponding collection search.
+This page shows the most common main accords accross both databases, reflected by their relative size. Please note that these have not been corrected for similar terms (ex, note that 'animal' and 'animalic' are counted separately despite their similarity).
+
+Click on the accords to see all fragrances with that accord.
+
+For more information about accords, see the [about page](https://shidafuonline.github.io/skinscents/notes.html

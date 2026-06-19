@@ -9,5 +9,6 @@ cloud-fields: standard_notes
 
 ## Browse Notes
 
-Use this word cloud visualization to browse terms and notes.
-Word size is determined by frequency and all words link to a corresponding collection search.
+This page shows the most common notes accross both databases, reflected by their relative size. Please note that these consist of both the notes that the fragrance house has listed, as well as a simplified term when relevant (ex. I Don't Know What, which D.S. & Durga lists as having vetiver acetate, has been invisibly tagged with just 'vetiver' as well) to improve searchability.
+
+Click on the notes to see all fragrances with that note.
