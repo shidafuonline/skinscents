@@ -1,7 +1,8 @@
 color_class,color
-primary,"#ab886a"
+primary,"#6e4c30"
 secondary,"#6c757d"
-success,"#6e4c30"
+success,"#ab886a"
 info,"#e6d6b5"
 warning,"#abbcc4"
 danger,"#bfa9c9"
+default,"#f2e5da"
