@@ -9,9 +9,10 @@
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
 featured-image: objects/header_img_skin.jpg
-featured-image-alt-text: a close up image of medium-toned skin # add alt text if using url for featured-image (objectid will be automatic from metadata)
+# featured-image:
+# featured-image-alt-text: a close up image of medium-toned skin # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional: add extra padding above collection title for a larger image feature. 
-home-title-y-padding:  # the margin from the top your title portion will appear.
+home-title-y-padding: 0 # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: center # Default is center
 
@@ -104,7 +105,7 @@ navbar-background: "bg-primary"
 # BOOTSWATCH THEMES [optional!]
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # leave blank or comment out for plain bootstrap
+bootswatch: litera # leave blank or comment out for plain bootstrap
 
 # THEME FONTS [optional!]
 base-font-size: 1.2em

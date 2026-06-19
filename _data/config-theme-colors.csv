@@ -1,7 +1,7 @@
 color_class,color
 primary,"#ab886a"
 secondary,"#6c757d"
-brown,"#6e4c30"
-beige,"#e6d6b5"
-blue,"#abbcc4"
-purple,"#bfa9c9"
+success,"#6e4c30"
+info,"#e6d6b5"
+warning,"#abbcc4"
+danger,"#bfa9c9"
